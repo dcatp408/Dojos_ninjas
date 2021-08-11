@@ -1,0 +1,69 @@
+insert into dojos (name, created_at, updated_at)
+values( "San Jose", NOW(), NOW());
+select * from dojos;
+
+insert into dojos (name, created_at, updated_at)
+values( "Silicon Valley", NOW(), NOW());
+select * from dojos;
+
+insert into dojos (name, created_at, updated_at)
+values( "San Fransisco", NOW(), NOW());
+select * from dojos;
+
+delete FROM dojos
+WHERE id = 1; 
+
+delete FROM dojos
+WHERE id = 2; 
+
+delete FROM dojos
+WHERE id = 3; 
+
+insert into dojos (name, created_at, updated_at)
+values( "San Jose", NOW(), NOW());
+select * from dojos;
+
+insert into dojos (name, created_at, updated_at)
+values( "Silicon Valley", NOW(), NOW());
+select * from dojos;
+
+insert into dojos (name, created_at, updated_at)
+values( "San Fransisco", NOW()), NOW();
+select * from dojos;
+
+insert INTO ninjas (first_name, last_name, age, created_at, updated_at, dojo_id) 
+value ("duy", "pham", 25, NOW(), NOW(), 4 );
+
+insert INTO ninjas (first_name, last_name, age, created_at, updated_at, dojo_id) 
+value ("danh", "pham", 27, NOW(), NOW(), 4 );
+
+insert INTO ninjas (first_name, last_name, age, created_at, updated_at, dojo_id) 
+value ("cat", "pham", 28, NOW(), NOW(), 4 );
+
+insert INTO ninjas (first_name, last_name, age, created_at, updated_at, dojo_id) 
+value ("Michelle", "pham", 34, NOW(), NOW(), 5 );
+
+insert INTO ninjas (first_name, last_name, age, created_at, updated_at, dojo_id) 
+value ("Matthew", "pham", 32, NOW(), NOW(), 5 );
+
+insert INTO ninjas (first_name, last_name, age, created_at, updated_at, dojo_id) 
+value ("Michael", "pham", 30, NOW(), NOW(), 5 );
+
+
+insert INTO ninjas (first_name, last_name, age, created_at, updated_at, dojo_id) 
+value ("Mai", "pham", 34, NOW(), NOW(), 6 );
+
+insert INTO ninjas (first_name, last_name, age, created_at, updated_at, dojo_id) 
+value ("Anh", "pham", 32, NOW(), NOW(), 6 );
+
+insert INTO ninjas (first_name, last_name, age, created_at, updated_at, dojo_id) 
+value ("Jeanie", "pham", 30, NOW(), NOW(), 6 );
+
+select * from ninjas 
+where dojo_id = 4;
+
+select * from ninjas 
+where dojo_id = 5;
+
+select * from ninjas 
+where dojo_id = 6;
